@@ -54,7 +54,7 @@ const initGame = () => {
         // NEW: show code 220 when score reaches 20
         if (score === 20) {
             clearInterval(setIntervalId);
-            alert("You win! Code: 220");
+            alert("You win! Code: 2200");
             return; // stop game
         }
 
@@ -88,6 +88,7 @@ const initGame = () => {
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 110);
 document.addEventListener("keyup", changeDirection);
+
 
 
 
